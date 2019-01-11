@@ -1,0 +1,13 @@
+<template>
+  <div>
+    <h1>HomePage</h1>
+    <router-link id="FirstPart" to="/Home">FirstPart</router-link>
+    <router-link id="SecondPart" to="/Home/SecondPart">SecondPart</router-link>
+    <hr>
+    <router-view></router-view>
+  </div>
+</template>
+
+
+
+
